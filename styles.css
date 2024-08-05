@@ -1,0 +1,96 @@
+body {
+    background-color: #EEEEEE;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+
+}
+
+nav {
+    background-color: #FFE0B5;
+    padding: 1em;
+    text-align: center;
+    color : black;
+}
+
+nav ul {
+    
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+aside {
+    color: ;black
+    padding: 20px;
+    width: 20%;
+}
+
+.left {
+    background-color: #FFE0B5;
+    margin-right: 10px;
+}
+
+.kontak a {
+    color: black;
+    text-decoration: none; 
+}
+
+.kontak a:hover {
+    color: blue; 
+    text-decoration: underline; 
+}
+
+.kontak {
+    color: black;
+    margin-right: 10px;
+    background-color: #FFE0B5;
+}
+main {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 80%;
+    margin: auto;    
+}
+.form-transaksi {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 80%;
+    margin: 0;    
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 0,8rem 0;
+    position:;
+    width: 100%;
+    bottom: 0;
+}
+
+header, footer {
+    background-image:url('img/bg2.png');
+    background-position: flex;
+}
+
+

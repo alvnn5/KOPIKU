@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaksi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>KOPIKU COFFEE</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">PRODUK</a></li>
+            <li><a href="transaksi.html">PESANAN</a></li>
+            <li><a href="invoice.html">PAYMENT</a></li>
+            <li><a href="kontak.html">KONTAKU</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside class="left">
+            <h1><center>BEST SELLER</center></h1>
+            <hr>
+            <ul>
+                <li>KOPIKU</li>
+                <li>CAPPUCCINO</li>
+                <li>AMERICANO</li>
+                <li>EXSPRESO</li>
+            </ul>
+        </aside>
+        <main class="form-transaksi">
+            <h2>Formulir Transaksi</h2>
+            <form id="transaksiForm">
+                <label for="nama">Nama :</label><br>
+                <input type="text" id="nama" name="nama"><br><br>
+                <label for="alamat">Alamat :</label><br>
+                <textarea id="alamat" name="alamat"></textarea><br><br>
+                <label for="produk">Produk :</label><br>
+                <input type="text" id="produk" name="produk" readonly><br><br>
+                <label for="jumlah">Jumlah :</label><br>
+                <input type="number" id="jumlah" name="jumlah"><br><br>
+                <label for="pengambilan">Pengambilan :</label><br>
+                <div>
+                    <input type="radio" id="dinein" name="pengambilan" value="Dinein">
+                    <label for="dinein">Dinein</label>
+                </div>
+                <div>
+                    <input type="radio" id="takeaway" name="pengambilan" value="Takeaway">
+                    <label for="takeaway">Takeaway</label>
+                </div><br><br>
+                <button type="button" onclick="submitTransaksi()">Buat Pesanan</button>  
+                <button type="reset" onclick="beli(' ', 0)">Reset</button>
+            </form>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p>&copy; KOPIKU KOFFEE BY ZEK - <MARQUEE><h3>Biji Kopi Pilihan Dengan Standar Kelas Internasional</h3></MARQUEE></p>
+</footer>
+</html>

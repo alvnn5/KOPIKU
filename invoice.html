@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>KOPIKU COFFEE</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">PRODUK</a></li>
+            <li><a href="transaksi.html">PESANAN</a></li>
+            <li><a href="invoice.html">PAYMENT</a></li>
+            <li><a href="kontak.html">KONTAKU</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <main class="contentt">
+            <CENTER>
+                <h2>PESANAN ANDA</h2>
+            </CENTER>
+            <table id="invoiceTable" border="1" cellspacing="0" cellpadding="10" width="100%">
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Alamat</th>
+                        <th>Produk</th>
+                        <th>Jumlah</th>
+                        <th>Pengambilan</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <CENTER>
+                <button onclick="tambahPesanan()">Tambah Pesanan</button>
+                <button onclick="resetPesanan()">Reset</button>
+                <button onclick="bayarPesanan()">Bayar</button>
+            </CENTER>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; KOPIKU KOFFEE BY ZEK - <MARQUEE><h3>Biji Kopi Pilihan Dengan Standar Kelas Internasional</h3></MARQUEE></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
